@@ -2,8 +2,8 @@ import drawings from "./drawings.js";
 import durationFormat from "./durationFormatter.js";
 import positions from "./positions.js";
 
-
-export let url = 'ws://' + window.location.hostname + ':8080';
+//' + window.location.hostname + '
+export let url = 'wss://ria-game-v2.glitch.me:8080';
 export let ws = new WebSocket(url);
 
 export let onopen = () => {
